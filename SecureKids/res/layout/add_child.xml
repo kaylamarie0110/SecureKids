@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/background1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="18dp"
+        android:padding="20dp"
+        android:paddingLeft="30dp"
+        android:text="@string/add_child"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+    
+    <TextView
+        android:id="@+id/txtErrorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="5dp"
+		android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/edFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/first_name" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:inputType="textPersonName"
+        android:hint="@string/last_name" />
+
+    <EditText
+        android:id="@+id/edPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="@string/phone" />
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />
+
+    <RelativeLayout
+    	android:orientation="horizontal" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="fill_parent">
+        
+	    <Button
+	        android:id="@+id/btnAddChild"
+	        android:layout_width="100dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginRight="2dp"
+	        android:layout_marginTop="25dp"
+	       android:background="#000000"
+	        android:text="@string/finished"
+	        android:textColor="#ffffff" />
+
+	    <Button
+	        android:id="@+id/btnAddChildPlus"
+	        android:layout_width="170dp"
+	        android:layout_height="30dp"
+	        android:layout_alignBaseline="@+id/btnAddChild"
+	        android:layout_alignBottom="@+id/btnAddChild"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="24dp"
+	       	android:background="#000000"
+	        android:paddingRight="10dp"	       
+	        android:text="@string/continue_adding"
+	        android:textColor="#FFFFFF" />
+	    
+	</RelativeLayout>	    
+    
+
+</LinearLayout>

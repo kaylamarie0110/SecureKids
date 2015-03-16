@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Secure Kids</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="login_prompt">Please login below.</string>
+    <string name="returning_user">Returning user?</string>
+    <string name="register_now">Register Now</string>
+    <string name="not_user">Not a user?</string>
+    <string name="parent_login">Parent Login</string>
+    <string name="child_login">Child Login</string>
+    <string name="sk_promise">Keep your kids safe with Secure Kids.</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="email">Email Address</string>
+    <string name="email_optional">Email Address (optional)</string>
+    <string name="pin">Family Pin*</string>
+    <string name="pin_none">Family Pin</string>
+    <string name="pin_hint">*Family pin is used when verifying a child phone. Required to be numeric.</string>
+	<string name="password">Password</string>
+	<string name="register">Register</string>
+	<string name="login">Login</string>
+	<string name="add_child">Add Child Device</string>
+	<string name="finished">Finished</string>
+	<string name="continue_adding">Add Another Child</string>
+	<string name="report">Report</string>
+	<string name="call_record">Call Records</string>
+	<string name="message_records">Message Records</string>
+	<string name="place_records">Place Records</string>
+	<string name="addchild">Add Child Device</string>
+	<string name="view_child">Child Devices</string>
+	<string name="call_records">Call Records</string>
+	<string name="devices">Child Devices</string>
+	
+</resources>

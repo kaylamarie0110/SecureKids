@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/background1"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearTopHead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#013162"
+        android:orientation="horizontal" >
+
+        <com.assignmentproject.getset.CustomTextViewRegular
+            android:id="@+id/txtHead"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/nearby_places"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:cacheColorHint="#fff"
+        android:divider="#013162"
+        android:dividerHeight="0.5dp"
+        android:scrollingCache="false" >
+    </ListView>
+
+</LinearLayout>
